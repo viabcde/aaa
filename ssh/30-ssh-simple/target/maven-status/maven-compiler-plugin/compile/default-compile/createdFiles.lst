@@ -1,0 +1,4 @@
+com\myimooc\ssh\simple\service\ProductService.class
+com\myimooc\ssh\simple\action\ProductAction.class
+com\myimooc\ssh\simple\dao\ProductDao.class
+com\myimooc\ssh\simple\domain\Product.class
