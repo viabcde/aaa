@@ -1,0 +1,8 @@
+com\myimooc\boot\simple\service\GirlService.class
+com\myimooc\boot\simple\BootSimpleApplication.class
+com\myimooc\boot\simple\web\controller\GirlProperties.class
+com\myimooc\boot\simple\web\controller\HelloController.class
+com\myimooc\boot\simple\repository\GirlRepository.class
+com\myimooc\boot\simple\service\impl\GirlServiceImpl.class
+com\myimooc\boot\simple\model\entity\Girl.class
+com\myimooc\boot\simple\web\controller\GirlController.class
