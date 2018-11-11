@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="symphony"
+  id="myeclipse.1541516966769"
+  context-root="/symphony"
+  j2ee-spec="6.0"
+  archive="symphony.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

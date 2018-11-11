@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<!-- 禁用动态方法调用 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+	<!-- 设置开发模式 -->
+	<constant name="struts.devMode" value="false" />
+	<!-- 设置对象工厂为spring -->
+	<constant name="struts.objectFactory" value="spring" />
+	
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="login" class="userAction" method="login">
+			<result>/loginSuccess.jsp</result>
+			<result name="error">/loginError.jsp</result>
+		</action>
+	</package>
+
+</struts>
